@@ -1,10 +1,10 @@
 def main():
     try:
         size = int(input("Enter the size of the array: "))
-        arr = [0.0] * size  # Initialize the array with zeros
+        arr = [0.0] * size  
 
         for i in range(size):
-            arr[i] = float(input(f"Enter the element of the array:\n"))  # Fixed here
+            arr[i] = float(input(f"Enter the element of the array:\n")) 
         
         index = int(input("Enter the index of the element to print: "))
 
